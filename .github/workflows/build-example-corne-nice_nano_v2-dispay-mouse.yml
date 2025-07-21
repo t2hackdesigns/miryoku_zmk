@@ -1,0 +1,18 @@
+# Copyright 2023 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build Example Corne nice_nano_v2 invertedt display mouse'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '[
+        "nice_nano_v2"
+      ]'
+      shield: '["corne_left","corne_right"]'
+      nav: '[
+        "invertedt"
+      ]'
+      kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_DISPLAY=y"]'
