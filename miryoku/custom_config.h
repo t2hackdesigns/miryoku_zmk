@@ -15,7 +15,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_MEDIA \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &u_to_U_FUN,       U_RGB_TOG,         U_RGB_EFF,         &kp C_VOL_UP,      U_RGB_HUI,         &kp C_BRI_UP,      \
-&sk LGUI,          &sk LALT,          &sk LCTRL,         &sk LSHFT,         U_NA,              U_EP_TOG,          &kp C_PREV,        &kp C_VOL_DN,      &kp C_NEXT,        &kp C_BRI_D        \
+&sk LGUI,          &sk LALT,          &sk LCTRL,         &sk LSHFT,         U_NA,              U_EP_TOG,          &kp C_PREV,        &kp C_VOL_DN,      &kp C_NEXT,        &kp C_BRI_DN,      \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
@@ -39,7 +39,7 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp 
 
 #define MIRYOKU_LAYER_BUTTON \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&sk LGUI,          &sk LALT,          &sk LCTRL,         &sk LSHFT,         U_NU,              U_NU,              &sk LSHFT,         &sk LCTRL,         &sk LALT,          &sk LGUI,         \
+&sk LGUI,          &sk LALT,          &sk LCTRL,         &sk LSHFT,         U_NU,              U_NU,              &sk LSHFT,         &sk LCTRL,         &sk LALT,          &sk LGUI,          \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
@@ -57,6 +57,7 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 // &kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SEMI \
 // &kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
 //                     K32  K33  K34       K35  K36  K37
+
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
@@ -64,7 +65,7 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 &kp ESC    K00    K01    K02    K03    K04         K05    K06    K07    K08    K09    &kp GRAVE \
-&kp LCTRL  &kp A  &kp R  &kp S  &kp T  &kp G       &kp M  &kp N  &kp E  &kp I  &kp O  &kp SEMI  \
+&kp LCTRL  &kp A  &kp R  &kp S  &kp T  &kp G       &kp M  &kp N  &kp E  &kp I  &kp O  &kp SEMI \
 &kp LSHFT  K20    K21    K22    K23    K24         K25    K26    K27    K28    K29    &kp LSHFT \
                          K32    K33    K34         K35    K36    K37
 
