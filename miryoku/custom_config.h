@@ -2,7 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #define MIRYOKU_LAYER_NAV \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &u_to_U_NUM,       &kp INS,           &kp HOME,          &kp UP,            &kp END,           &kp PG_UP,         \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp BSPC,          &kp INS,           &kp HOME,          &kp UP,            &kp END,           &kp PG_UP,         \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp RET,           &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp PG_DN,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
